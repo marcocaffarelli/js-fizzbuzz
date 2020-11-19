@@ -19,15 +19,18 @@ var buzz = "Buzz"
 
 // ciclo for che genera i numeri da 1 a 100
 for (var i = 1; i < 101; i++) {
-    console.log(i);
+    //console.log(i);
     //numeri divisibili per 3 e per 5
     if (i % 3 == 0 && i % 5 == 0) {
         console.log(fizzBuzz);
     //numeri divisibili solo per 3
     }else if (i % 3 == 0) {
         console.log(fizz);
-    //numeri divisibili solo per 5    
+    //numeri divisibili solo per 5
     }else if (i % 5 == 0) {
         console.log(buzz);
+    // i restanti numeri che non sono divisibili ne per 3 ne per 5
+    }else{
+        console.log(i)
     }
 }
