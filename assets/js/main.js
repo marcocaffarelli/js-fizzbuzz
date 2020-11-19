@@ -9,9 +9,25 @@
 // 2. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 // Buon lavoro e buon divertimento!
 
+// variabili
+var fizzBuzz = "FizzBuzz"
+//console.log(fizzBuzz);
+var fizz = "Fizz"
+//console.log(fizz);
+var buzz = "Buzz"
+//console.log(buzz);
+
+// ciclo for che genera i numeri da 1 a 100
 for (var i = 1; i < 101; i++) {
     console.log(i);
-  
-
+    //numeri divisibili per 3 e per 5
+    if (i % 3 == 0 && i % 5 == 0) {
+        console.log(fizzBuzz);
+    //numeri divisibili solo per 3
+    }else if (i % 3 == 0) {
+        console.log(fizz);
+    //numeri divisibili solo per 5    
+    }else if (i % 5 == 0) {
+        console.log(buzz);
+    }
 }
-
