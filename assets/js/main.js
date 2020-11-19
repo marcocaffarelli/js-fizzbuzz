@@ -8,3 +8,10 @@
 // 1. scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 // 2. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 // Buon lavoro e buon divertimento!
+
+for (var i = 1; i < 101; i++) {
+    console.log(i);
+  
+
+}
+
